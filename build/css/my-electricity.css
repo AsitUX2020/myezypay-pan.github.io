@@ -1,0 +1,258 @@
+.arrow-down-img{
+	width: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 20px;
+    height: 30px;
+    box-shadow: 0px 0px 2px #676767;
+}
+
+
+
+.wrapper{
+	display: table;
+    width: 84%;
+	position: absolute;
+}
+.table-cell{
+	display: table-cell;
+	padding:0 10px;
+	max-width: 0;
+}
+
+@media (max-width:768px) {
+    .wrapper{
+	   width:100%;
+	   position: relative;
+    }
+	.table-cell{
+		float:left;
+		width:100%;
+	}
+	.conf-text, .conf-img{
+		margin-bottom:10px;
+	}
+}	
+
+.dropdown-menu > li > a {
+    padding: 6px 15px!important;
+}
+.conf-img{	
+	position:absolute;
+	width:40px;
+}
+.conf-img img{	
+    width:100%;
+}
+.conf-text{
+	margin-left: 60px;
+}
+
+.bbps{
+	float: right;
+	width: 90px;
+}
+.bbps img{
+	width: 100%;
+}
+
+label{font-weight: normal;font-size:12px;}
+.ezy-table > tbody > tr > td, .ezy-table > thead > tr > th{
+	padding: 5px!important;
+	line-height: 1!important;
+    vertical-align: middle!important;
+	font-size:12px;
+}
+.Proceed{margin: 0px -2px 5px;}
+.modifi{margin: 22px -2px 5px;}
+.modifi, .Proceed{
+   float: right;
+   color: #fff;
+   display: block;
+   width: 100%;
+   height: 36px;
+   font-weight: 700;
+   padding: 6px 0px;
+   font-size: 1.1em;
+   line-height: 1.42857143;
+   background-color: #00b9f5;
+   border: 1px solid #00b9f5;
+   box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+   border-radius: 0px;
+   background: linear-gradient(to bottom,#00b9f5 0,#00b9f5 100%);
+}
+.modifi:hover{
+	background:#008df5;
+}
+.selectdiv {
+    position: relative;
+    width: 100%;
+	display: inline-block;
+}
+.selectdiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    float: right;
+    padding: 4px 17px 4px 4px;
+    font-size: 14px;
+   line-height: 1.75;
+   color: #555;
+   background-color: #ffffff;
+   background-image: none;
+   -ms-word-break: normal;
+   word-break: normal;
+   border-bottom: 1px solid #ccc;
+}
+.selectdiv::after {
+    content: '\f078';
+    font: normal normal normal 12px/1 FontAwesome;
+    color: #828282;
+    right: 6px;
+    top: 9px;
+    height: 20px;
+    padding: 4px 0px 0px 8px;
+    position: absolute;
+    pointer-events: none;
+	background:#fff;
+	z-index: 1;
+}
+
+.massage-text{
+	width: 100%;
+    display: none;
+    color: red;
+	/* margin-top: -20px; */
+}
+.mtl-btn-right{
+	float:right;
+	width:16.6666667%;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+/*==============CONSUMER DETAILS===============================*/		
+/*============ RADIO BUTTON========================*/
+.md-radio.md-radio-inline {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.md-radio input[type="radio"] {
+  display: none;
+}
+.md-radio input[type="radio"]:checked + label:before {
+  border-color: #082b71;
+  animation: ripple 0.2s linear forwards;
+}
+.md-radio input[type="radio"]:checked + label:after {
+  transform: scale(1);
+}
+.md-radio input:valid ~ label{
+	top:-8px;
+	color: #082b71;
+    font-size: 14px;
+}
+.md-radio label {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  padding: 0 23px 0 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+  vertical-align: bottom;
+  pointer-events: auto;
+  font-weight: normal;
+}
+.md-radio label:before, .md-radio label:after {
+  position: absolute;
+  content: '';
+  border-radius: 50%;
+  transition: all .3s ease;
+  transition-property: transform, border-color;
+}
+.md-radio label:before {
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #082b71;
+}
+.md-radio label:after {
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  transform: scale(0);
+  background: #082b71;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+/*================END REDIO====================*/
+
+.ezy-consu-dtl{
+	width: 100%;
+    text-align: left;
+    padding: 5px;
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+    background: #eff6ff;
+    font-weight: 600;
+    color: #555;
+	margin:9px 0 0;
+}
+.ezy-consu-dtl i{
+	float: right;
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.table-consu-dtl{
+	background: #eff6ff;
+    width: 100%;
+}
+.table-consu-dtl td{
+	padding: 2px 5px;
+}
+.mnt-list-div{margin-top: 5px;}
+
+
+/*==============END CONSUMER DETAILS===============================*/		
+
+@media (max-width:480px) {
+	
+}
+@media (max-width:768px) {
+    .mtl-btn-right {
+        width: 100%;
+	}
+	.table-cell {
+		min-width: 100%;
+	}
+}
+@media (min-width:991px) and (max-width:1060px) {
+	.modifi, .Proceed{
+		font-size:13px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
