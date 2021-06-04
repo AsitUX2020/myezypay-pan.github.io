@@ -1236,10 +1236,8 @@ h2 {
     margin: 0 0 12px 0 !important;
     color: #23c145;
 }
-.find_address {
-    color: #448AFF!important;
-    padding: 0 !important;
-    margin: 0 !important;
+.tab-pane p {
+    font-size: 14px;
 }
 .main-header{
     margin: 0 !important;
@@ -4377,6 +4375,7 @@ ul.notifications {
     font-size: 16px;
     color: #FFFFFF;
     margin-top:30px;
+    margin-left: 12px !important;
     margin-right: 0 !important;
     margin-bottom: 0 !important;
     padding: 8px 16px !important; 
@@ -4399,7 +4398,7 @@ ul.notifications {
     font-size: 16px;
     color: #FFFFFF;
     margin-top:30px;
-    margin-right: 12px !important;
+    margin-right: 0 !important;
     margin-bottom: 0 !important;
     padding: 8px 16px !important; 
 }
@@ -4409,7 +4408,6 @@ ul.notifications {
     font-size: 16px;
     color: #FFFFFF;
     margin-top:30px;
-    margin-right: 12px !important;
     margin-bottom: 0 !important;
     padding: 8px 16px !important; 
 }
@@ -4420,7 +4418,7 @@ ul.notifications {
 span.round-tab {
     width: 50px;
     height: 50px;
-    line-height: 50px;
+    line-height: 44px;
     display: inline-block;
     border-radius: 100px;
     background: #fff;
