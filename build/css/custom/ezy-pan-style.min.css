@@ -1114,6 +1114,7 @@ h2 {
     border: 1px solid #e9a6a6;
     border-radius: 4px;
     width: 100%;
+    min-height: 130px;
     margin-bottom: 20px;
 }
 .delhi-Head{
@@ -1128,6 +1129,7 @@ h2 {
     border: 1px solid #84d8d8;
     border-radius: 4px;
     width: 100%;
+    min-height: 130px;
     margin-bottom: 20px;
 }
 .mumbai-Head{
@@ -1142,6 +1144,7 @@ h2 {
     border: 1px solid #a0e497;
     border-radius: 4px;
     width: 100%;
+    min-height: 130px;
     margin-bottom: 20px;
 }
 .kolkata-Head{
@@ -1156,6 +1159,7 @@ h2 {
     border: 1px solid #ca81d1;
     border-radius: 4px;
     width: 100%;
+    min-height: 130px;
     margin-bottom: 20px;
 }
 .chennai-Head{
